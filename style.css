@@ -1,0 +1,12 @@
+#Take_snapshot:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: Example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes Example{
+    from {box-shadow: 1px 1px 35px blue;}
+    to {box-shadow: 1px 1px 35px red;}
+}
